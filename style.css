@@ -1,4 +1,4 @@
-body {
+Body {
   font-family: "Helvetica";
   font-size: 22px;
   color: seashell;
@@ -25,12 +25,23 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
+  background-color: black;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+nav span:hover {
+  background-color: grey;
+  animation: both;
+  opacity: 0.5;
 }
 
 .Flex-con {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 /* MAIN SECTIONS */
@@ -48,4 +59,78 @@ nav span {
   background-color: black;
   display: inline-block;
   margin: 300px 0px;
+}
+
+#tea {
+}
+
+#tea .heading {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#tea img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+#Locations {
+  background-image: url("img-locations-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 200px;
+}
+
+#Locations .downtown {
+  display: inline-block;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+#Locations .east-bayside {
+  display: inline-block;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+#Locations .oakdale {
+  display: inline-block;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  opacity: 1;
+}
+
+#Locations .east-bayside:hover {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+#Locations .downtown:hover {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+#Locations .oakdale:hover {
+  opacity: 0.5;
+  background-color: grey;
+}
+#Locations .oakdale:hover {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+/* footer */
+footer {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 20px;
 }
